@@ -1,0 +1,244 @@
+@font-face {
+    font-family: NEWACADEMY;
+	font-family: Stellar-light;
+    src:url(NEWACADEMY.ttf);
+	src:url(Stellar-light.otf);
+}
+@font-face {
+   font-family: NEWACADEMY;
+   src:url(NEWACADEMY.ttf);  
+}
+
+
+.textbox{
+	background-color:#383838;
+	margin-left:auto;
+	margin-right:auto;
+	height:400px;
+	width:900px;
+	font-family:Stellar-light;
+	color:white;
+	opacity:.9;
+	text-align:justify;
+	font-size:30px;
+	padding:0 25px;
+	margin-bottom:auto;
+	margin-top:auto;
+}
+
+.textbox2{
+	background-color:#383838;
+	margin-left:auto;
+	margin-right:auto;
+	height:40vh;
+	width:600px;
+	font-family:Stellar-light;
+	color:white;
+	opacity:.9;
+	text-align:justify;
+	font-size:3vh;
+	padding:30px 25px;
+	margin-bottom:auto;
+	margin-top:auto;
+}
+
+.parallax{
+	position:relative;
+	height:485px;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url("space3.jpg");
+}
+
+.parallax2{
+	position:relative;
+	height:485px;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url("space1.jpg");
+}
+
+.parallax3{
+	position:relative;
+	height:485px;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url("magellan.jpg");
+}
+.parallax4{
+	position:relative;
+	height:485px;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url("nebula.jpg");
+}
+.slider{
+	width: 600px; 
+	position: relative;
+	padding-top: 340px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.slider>img{
+	position: absolute;
+	left: 0; top: 0;
+	transition: all 0.5s;
+
+}
+
+.slider input[name='slide_switch'] {
+	display: none;
+}
+
+.slider label {
+	margin: 18px 0 0 18px;
+	border: 3px solid #999;
+	float: left;
+	cursor: pointer;
+	transition: all 0.5s;
+	opacity:.9;
+}
+.thumb{
+	width:123px;
+}
+.slider label img{
+	display: block;
+}
+
+.slider input[name='slide_switch']:checked+label {
+	border-color: #666;
+	opacity: 1;
+}
+
+.slider input[name='slide_switch'] ~ img {
+	opacity: 0;
+	transform: scale(1);
+}
+
+.slider input[name='slide_switch']:checked+label+img {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.background{
+	background-color:#282828;
+}
+
+.img{
+	width:600px;
+	height:auto;
+}
+
+.grid{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+ul.navbar{
+	z-index:99;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: rgba(0, 100, 188, 50);
+	background-size:cover;
+	position:fixed;
+	top:0;
+	width:100%;
+	font-family: NEWACADEMY;
+}
+
+.list{
+	float:left;
+	font-family: NEWACADEMY;
+}
+
+.list a.block{
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding: 14px 24px;
+	color:white;
+	transition:0.3s;
+	font-family: NEWACADEMY;
+}
+
+.list a:hover{
+	background-color:#111;
+}
+
+.logo{
+	width:600px;
+	height:auto;
+	padding-top:35px
+}
+
+.quote{
+	font-family:NEWACADEMY;
+	font-size:2em;
+	text-align:center;
+	color:white;
+	padding-top:70px;
+}
+.text{
+	font-family:NEWACADEMY;
+	font-size:1em;
+	text-align:justify;
+	color:white;
+}
+.quote2{
+	font-family:Stellar-light;
+	font-size:4.5vh;
+	font-size-adjust
+	text-align:center;
+	color:white;
+	padding-top:70px;
+		overflow:none;
+		padding:25px;
+}
+.grid2{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	overflow:none;
+}
+.grid1{
+	display:grid;
+	grid-template-columns:1fr;
+		overflow:hidden;
+}
+
+.button{
+    background-color: rgba(0, 100, 188, 50);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+	font-family:NEWACADEMY;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 2% 2px;
+    cursor: pointer;
+	transition:0.5s;
+	border-radius:2px 10px;
+	
+}
+
+.button:hover{
+	background-color: #f4d942;
+	color:black;	
+}
+
+
+a.nounderline {
+	text-decoration: none;
+ }

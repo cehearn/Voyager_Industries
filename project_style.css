@@ -1,8 +1,8 @@
 @font-face {
     font-family: NEWACADEMY;
 	font-family: Stellar-light;
-    src:url(NEWACADEMY.ttf);
-	src:url(Stellar-light.otf);
+    src:url(Assets/Fonts/NEWACADEMY.ttf);
+	src:url(Assets/Fonts/Stellar-light.otf);
 }
 @font-face {
    font-family: NEWACADEMY;
@@ -49,7 +49,7 @@
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-image:url("space3.jpg");
+	background-image:url("Assets/Photos/space3.jpg");
 }
 
 .parallax2{
@@ -59,7 +59,7 @@
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-image:url("space1.jpg");
+	background-image:url("Assets/Photos/space1.jpg");
 }
 
 .parallax3{
@@ -69,7 +69,7 @@
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-image:url("magellan.jpg");
+	background-image:url("Assets/Photos/magellan.jpg");
 }
 .parallax4{
 	position:relative;
@@ -78,7 +78,7 @@
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-image:url("nebula.jpg");
+	background-image:url("Assets/Photos/nebula.jpg");
 }
 .slider{
 	width: 600px; 

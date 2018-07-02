@@ -1,12 +1,12 @@
 @font-face {
     font-family: NEWACADEMY;
 	font-family: Stellar-light;
-    src:url(NEWACADEMY.ttf);
-	src:url(Stellar-light.otf);
+    src:url(Assets/Fonts/NEWACADEMY.ttf);
+	src:url(Assets/Fonts/Stellar-light.otf);
 }
 @font-face {
    font-family: NEWACADEMY;
-   src:url(NEWACADEMY.ttf);  
+   src:url(Assets/Fonts/NEWACADEMY.ttf);  
 }
 
 .background{
@@ -77,7 +77,7 @@ ul.navbar{
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-image:url("long_exposure.jpg");
+	background-image:url("Assets/Photos/long_exposure.jpg");
 }
 
 .parallax2{

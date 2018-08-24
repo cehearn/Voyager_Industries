@@ -80,6 +80,15 @@
 	background-size:cover;
 	background-image:url("Assets/Photos/nebula.jpg");
 }
+.parallax5{
+	position:relative;
+	height:485px;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url("Assets/Photos/interior.jpg");
+}
 .slider{
 	width: 600px; 
 	position: relative;

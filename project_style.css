@@ -4,11 +4,11 @@
     src:url(Assets/Fonts/NEWACADEMY.ttf);
 	src:url(Assets/Fonts/Stellar-light.otf);
 }
+
 @font-face {
    font-family: NEWACADEMY;
-   src:url(NEWACADEMY.ttf);  
+   src:url(Assets/Fonts/NEWACADEMY.ttf);  
 }
-
 
 .textbox{
 	background-color:#383838;
